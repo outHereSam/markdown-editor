@@ -20,6 +20,12 @@
   --orange-hover: #f39765;
 }
 
+html,
+body {
+  border: solid 1px pink;
+  height: 100%;
+}
+
 body,
 button {
   font-family: "Roboto", sans-serif;
