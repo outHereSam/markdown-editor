@@ -1,0 +1,88 @@
+.hidden {
+  display: none;
+}
+
+.navbar {
+  /* border: solid 1px pink; */
+  background-color: var(--slate-800);
+  color: var(--slate-100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 0 0;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.menu {
+  border: none;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background-color: var(--slate-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.menu:hover {
+  background-color: var(--orange-accent);
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete svg path {
+  transition: fill 0.2s ease-in-out;
+}
+
+.delete:hover svg path {
+  fill: var(--orange-accent);
+}
+
+.save {
+  background-color: var(--orange-accent);
+  padding: 12px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.save:hover {
+  background-color: var(--orange-hover);
+}
+
+.desktop {
+  display: none;
+}
